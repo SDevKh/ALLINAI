@@ -1,0 +1,362 @@
+.Heading {
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+    font-family: Mukta;
+    background-color: blueviolet;
+    padding: 14px;
+    margin-top: -9px;
+}
+.Head1 {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+}
+.two {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.three {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.four {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.five {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.six {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.seven {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.eight {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.nine {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 44px;
+}
+.ten {
+    text-decoration: underline;
+    font-size: 2.8vw;
+    font-family: Chakra Petch;
+    cursor: default;
+    padding-top: 8vh;
+}
+.f1 {
+    font-size: 2vw;
+    font-family: Kadwa;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    text-decoration: blink;
+    transition: color 0.5s ease;
+}
+.f1:hover {
+    color: tomato;
+    animation: scale 5s ease;
+}
+.f12 {
+    font-size: 1.5vw;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.codeimg {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg2 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg3 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+    height: 30vh;
+    border-radius: 30px;
+}
+.codeimg4 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg5 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    max-width: 28vw;
+}
+.codeimg6 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+    max-height: 40vh;
+}
+.codeimg7 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg8 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg9 {
+    display: flex;
+    position: absolute;
+    right: 0vw;
+    width: 31vw;
+}
+.codeimg10 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+
+}
+.odeimg {
+ 
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg2 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg3 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+    border-radius: 34%;
+}
+.odeimg4 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg5 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+    border-radius: 50%;
+}
+.odeimg6 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg7 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg8 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg9 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.odeimg10 {
+
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 33vw;
+}
+.deimg {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg2 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg3 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+    height: 37vh;
+    border-radius: 34%;
+}
+.deimg4 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg5 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg6 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;;
+}
+.deimg7 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg8 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg9 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.deimg10 {
+    border-radius: 105px;
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg2 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg3 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 21vw;
+    border-radius: 34%;
+}
+.eimg4 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg5 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    max-width: 21vw;
+}
+.eimg6 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg7 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg8 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg9 {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.eimg10 {
+    border-radius: 105px;
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    width: 31vw;
+}
+.textof1 {
+    width: 41vw;
+}
+.gradient-overlay{
+    height: 53vw;
+}

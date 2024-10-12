@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header {
+    background-color: #213b3b;
+    height: 0vh;
+    background-color: black;
+}
+.main-menu {
+    text-decoration: blink;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .main-menu{
+        justify-content: end;
+    }
+}
+
+.home {
+    padding-top: 1vh;
+    color: rgb(255, 0, 0);
+    text-decoration: blink;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    font-family: New Rocker;
+    font-size: 1.5vw;
+    margin-left: 0vw;
+}
+
+.home:hover {
+    color: rgb(0, 68, 255);
+    animation: scale 0.3s ease;
+}
+
+.contact {
+    padding-top: 1vh;
+    color: rgb(255, 0, 0);
+    text-decoration: blink;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    font-weight: 600;
+    font-family: New Rocker;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.contact:hover {
+    color: rgb(238, 0, 238);
+    animation: scale 0.5s ease;
+}
+
+.aboutus {
+    padding-top: 1vh;
+    color: rgb(255, 0, 0);
+    text-decoration: blink;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    font-weight: 600;
+    font-size: 1.5vw;
+    font-family: New Rocker;
+    margin-left: 1vw;
+}
+
+.aboutus:hover {
+    color: rgb(238, 0, 238);
+    animation: scale 0.5s ease;
+}
+
+.menu {
+    padding-top: 1vh;
+    color: rgb(255, 0, 0);
+    text-decoration: blink;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    font-weight: 600;
+    font-size: 1.5vw;
+    font-family: New Rocker;
+    margin-left: 1vw;
+}
+
+.menu:hover {
+    color: rgb(238, 0, 238);
+    animation: scale 0.3s ease;
+}
+.homepage {
+    background: rgb(0, 255, 255);
+    border-radius: 5vh;
+    margin-top: 3vh;
+    font-family: New Rocker;
+    width: 31vw;
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vh;
+}
+@media (max-width: 800px) {
+    .homepage{
+        margin-top: 1vh;
+        padding: 0.2vh;
+    }
+}
+
+.bgimg{
+    width: 11vw;
+    display: flex;
+    position: absolute;
+    margin: 5vh 0 0 3vw;
+}
+@media (max-width: 800px){
+.bgimg{
+    margin: 0 0 0 3vw;
+}
+}
+.androdi-normal{
+    background-color: #141616;
+    background-image: url(pics/bgggg.jpg);
+    background-size: 100%;
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+}
+.maintxt{
+    writing-mode: vertical-rl;
+    margin: 4vh 0 0 3vw;
+    font-size: 6vw;
+    padding-bottom: 9vh;
+    color: lightskyblue;
+    font-family: Mate SC;
+    font-weight: 700;
+}
+@media (max-width: 800px){
+    .maintxt{
+        margin: 6vh 0 0 3vw;
+        padding-bottom: 2vh;
+    }
+}
+.text{
+    position: absolute;
+    display: flex;
+    width: 30vw;
+    text-align: center;
+    margin: 35vh 0 0px 35vw;
+    animation: float 3s ease;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: rgb(88, 255, 233);
+}
+@keyframes float {
+    0% {
+        transform: translateY(-200px) rotateX(180deg);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-100px) rotateX(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0) rotateX(0deg);
+        opacity: 1;
+    }
+}
+@media (max-width: 800px){
+    .text{
+        margin: 5vh 0 0px 63vw;
+    }
+}
+
+.logo1 {
+    position: absolute;
+    width: 4.5vw;
+    left: 13vw;
+    border-radius: 50%;
+    top: 9vh;
+}
+@media (max-width: 800px){
+    .logo1{
+        top: 4vh;
+    }
+}
+.logo2 {
+    position: absolute;
+    width: 4.5vw;
+    top: 11vw;
+    left: 16vw;
+    background-color: white;
+    border-radius: 50%;
+}
+@media (max-width: 800px){
+    .logo2{
+        top: 15vw;
+    }
+}
+.logo3 {
+    position: absolute;
+    width: 4.5vw;
+    top: 18vw;
+    left: 18vw;
+    background-color: white;
+    border-radius: 50%;
+}
+@media (max-width: 800px){
+    .logo3{
+        top: 22vw;
+    }
+}
+.logo4 {
+    position: absolute;
+    width: 4.5vw;
+    height: 10vh;
+    left: 18vw;
+    top: 25vw;
+    border-radius: 50%;
+}
+@media (max-width: 800px){
+    .logo4{
+        width: 6vw;
+        height: 3vh;
+        top: 29vw;
+    }
+}
+.logo5 {
+    position: absolute;
+    width: 4.5vw;
+    left: 17vw;
+    top: 32vw;
+    border-radius: 50%;
+}
+@media (max-width: 800px){
+    .logo5{
+        width: 5.5vw;
+        top: 37vw;
+    }
+}
+.logo6 {
+    position: absolute;
+    width: 4.5vw;
+    left: 15vw;
+    top: 38vw;
+    border-radius: 50%;
+}
+@media (max-width: 800px){
+    .logo6{
+        width: 5.5vw;
+        top: 44vw;
+    }
+}
+
+#rotating-image {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#rotating-image2 {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#rotating-image3 {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#rotating-image4 {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#rotating-image5 {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#rotating-image6 {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.textcata{
+    color: #16D1FC;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 10vh 0 0 10px;
+}
+@media (max-width: 500px) {
+    .textcata{
+        padding: 3vh 0 0 10px;
+    }
+}
+.video{
+        width: 35vw;
+        position: absolute;
+        margin: 0 0 0 62vw;
+        border-radius: 79px;
+}
+.cata12{
+    margin: 5vh 0 0 17vw;
+    font-size: 2.5vw;
+    color: white;
+}
+@media (max-width: 500px){
+    .cata12{
+        margin: 2vh 0 0 17vw;
+    }
+}
+.cata1{
+    margin: 0 0 0 5vw;
+    font-size: 3vw;
+    color: cyan;
+    text-decoration: underline;
+}
+.chotu{
+    position: absolute;
+    width: 21vw;
+    margin: 0vh 0 0 3vw;
+}
+.cata2{
+    margin: 39vh 0 0 60vw;
+    font-size: 3vw;
+}
+@media (max-width: 500px){
+    .cata2{
+        text-align: center;
+        margin: 10vh 0 0 0;
+    }
+}
+.cata22{
+    margin: 4vh 0 0 61vw;
+    width: 28vw;
+    font-size: 2.5vw;
+    color: white;
+}
+@media (max-width: 500px){
+    .cata22{
+        margin: 3vh 0 0 27vw;
+        width: 56vw;
+    }
+}
+.gb{
+    position: absolute;
+    width: 31vw;
+    margin: 0px 0 0 66vw;
+}
+.cata3{
+    margin: 41vh 0 0 7vw;
+    font-size: 3vw;
+}
+@media (max-width: 500px){
+    .cata3{
+        margin: 10vh 0 0 6vw;
+        text-align: start;
+    }
+}
+.cata32{
+    margin: 4vh 0 0 14vw;
+    font-size: 2.5vw;
+    color: white;
+}
+@media (max-width: 500px){
+    .cata32{
+        margin: 2vh 0 0 9vw;
+    }
+}
+.bo{
+    width: 49vw;
+    margin: 0 0 0 6vw;
+    position: absolute;
+}
+.cata4{
+    margin: 54vh 0 0 60vw;
+    font-size: 3vw;
+}
+@media (max-width: 500px){
+    .cata4{
+        margin: 16vh 0 0 50vw;
+    }
+}
+.cata42{
+    margin: 4vh 0 0 61vw;
+    width: 28vw;
+    font-size: 2.5vw;
+    padding-bottom: 14vh;
+    color: white;
+}
+@media (max-width: 500px){
+    .cata42{
+    margin: 2vh 0 0 51vw;
+    width: 38vw;
+    padding-bottom: 4vh;
+    }
+}
+.logofoot {
+    height: 68px;
+}
+
+.logofoot1 {
+    position: absolute;
+    left: 3vw;
+}
+
+.footer {
+    padding-top: 28px;
+    background-color: #181717;
+    background-blend-mode: multiply;
+    padding-bottom: 5vh;
+    font-weight: 900;
+    display: flex;
+    white-space: pre-line;
+}
+
+#footsecond {
+    position: absolute;
+    margin-left: 57vw;
+    width: 41vw;
+    text-align: center;
+}
+
+.t {
+    font-size: 4vw;
+    width: 13vw;
+    font-family: Mate SC;
+    font-weight: 900;
+    color: rgb(37, 204, 255);
+    text-shadow: 0 0 black;
+}
+
+.foottext1 {
+    font-size: 2vw;
+    margin-left: 32vw;
+    font-family: Michroma;
+    text-decoration: underline;
+    text-decoration-color: #16D1FC;
+    color: burlywood;
+    width: 24vw;
+}
+
+.foottext2 {
+    font-size: 1.5vw;
+    margin-left: 32vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 24vw;
+}
+
+.foottext3 {
+    font-size: 1.5vw;
+    margin-left: 35vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 24vw;
+}
+
+.foottext4 {
+    font-size: 1.5vw;
+    margin-left: 32vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 24vw;
+}
+
+.foottext5 {
+    font-size: 1.5vw;
+    margin-left: 27vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 28vw;
+}
+
+.foottext6 {
+    font-size: 1.5vw;
+    margin-left: 36vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 24vw;
+}
+
+.foottext7 {
+    font-size: 1.5vw;
+    margin-left: 35vw;
+    font-family: Michroma;
+    color: burlywood;
+    width: 24vw;
+}
+
+#foottext1 {
+    font-size: 2vw;
+    font-family: Michroma;
+    text-decoration: underline;
+    text-decoration-color: #16D1FC;
+    color: burlywood;
+}
+
+#foottext2 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+#foottext3 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+#foottext4 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+#foottext5 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+#foottext6 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+#foottext7 {
+    font-size: 1.5vw;
+    font-family: Michroma;
+    color: burlywood;
+}
+
+.headcook {
+    font-size: 30px;
+    color: aliceblue;
+    padding-top: 113px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cook1 {
+    padding-top: 12px;
+    color: rgb(255, 255, 255);
+    white-space-collapse: break-spaces;
+    font-size: 22px;
+}
